@@ -7,6 +7,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }
 .container {
   display: flex;
@@ -15,7 +16,6 @@ body {
   width: 100%;
   height: 100%;
   background: linear-gradient(180deg, #b2e0f9, 5%, #c7e1fa, 50%, #030423);
-  overflow: hidden;
 }
 
 #panel {
@@ -132,6 +132,11 @@ body {
   #pBottom {
     padding: 10px;
   }
+
+  .bubble{
+    width: 44px;
+    height: 44px;
+  }
 }
 
 /* Media queries for mobile screens */
@@ -166,4 +171,5 @@ body {
   #pBottom {
     padding: 5px;
   }
+  
 }
