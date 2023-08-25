@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Bubble Blast</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="wrapper">
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+        <div><span class="dot"></span></div>
+      </div>
+      <div class="content">
+        <h1 class="headClass">Welcome to Bubble Blast</h1>
+        <ul class="instructions">
+          <li>Instruction 1: Hit the bubbles that match the number in the hit box.</li>
+          <li>Instruction 2: You have 60 seconds to score as many points as you can.</li>
+          <li>Instruction 3: Each valid hit earns you 10 points.</li>
+        </ul>
+        <h3 class="sub-heading">Get Ready to Blast!</h3>
+        <button class="btn" id="redirect">
+          <a class="startbtn" href="game.html">Start</a>
+        </button>
+      </div>
+    </div>
+    <script>
+      document.getElementById("redirect").addEventListener("click", () => {
+        window.location = "game.html";
+      });
+    </script>
+  </body>
+</html>

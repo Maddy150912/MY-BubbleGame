@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #b2e0f9, 5%, #c7e1fa, 50%, #030423);
+}
+
+#panel {
+  overflow: hidden;
+  height: 82%;
+  width: 80%;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+#pTop {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgba(3, 4, 35, 0.8);
+  color: #f0f0f0;
+}
+
+.elem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.box {
+  color: rgb(39, 24, 53);
+  font-weight: 600;
+  font-size: 25px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#pBottom {
+  display: flex;
+  flex-wrap: wrap;
+  height: calc(100% - 100px);
+  padding: 20px;
+  width: 100%;
+  gap: 10px;
+  background-color: #e1e9f4;
+}
+
+.bubble {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  color: white;
+  border-radius: 50%;
+  background-color: #89c3eb;
+  font-weight: 700;
+}
+
+.bubble:hover {
+  background-color: #5a95c5;
+  color: black;
+  cursor: pointer;
+}
+
+@keyframes blastBubbleAnimation {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+.bubble.blastBubbleClass {
+  background-color: aqua;
+  animation: blastBubbleAnimation 0.3s ease-out forwards;
+}
+
+.headClass {
+  font-size: 110px;
+  margin-left: 25%;
+  margin-top: 10%;
+  font-weight: 900;
+  -webkit-text-stroke: 1px black;
+  color: #89c3eb;
+  text-align: center;
+}
+
+/* Media queries for tablet screens */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0px;
+  }
+
+  #panel {
+    width: 90%;
+    height: 77%;
+  }
+
+  #pTop {
+    padding: 20px;
+  }
+
+  .elem {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .box {
+    padding: 5px 10px;
+    font-size: 20px;
+  }
+
+  #pBottom {
+    padding: 10px;
+  }
+}
+
+/* Media queries for mobile screens */
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 0px;
+  }
+
+  #panel {
+    width: 95%;
+    height: 74%;
+  }
+
+  .headClass {
+    font-size: 10vw;
+    margin: 10% auto;
+  }
+
+  #pTop {
+    padding: 10px;
+  }
+
+  .elem {
+    flex-direction: column;
+  }
+
+  .box {
+    padding: 5px 10px;
+    font-size: 18px;
+  }
+
+  #pBottom {
+    padding: 5px;
+  }
+}
