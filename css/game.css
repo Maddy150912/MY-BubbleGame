@@ -133,9 +133,13 @@ body {
     padding: 10px;
   }
 
+  .headClass {
+    font-size: 10vw;
+    margin: 10% auto;
+  }
   .bubble{
-    width: 48px;
-    height: 48px;
+    width: 45px;
+    height: 45px;
   }
 }
 
@@ -172,4 +176,8 @@ body {
     padding: 5px;
   }
   
+  .bubble{
+    width: 45px;
+    height: 45px;
+  }
 }
