@@ -14,6 +14,12 @@ Bubble Blast is an exciting and fast-paced bubble-popping game that challenges y
 4. You have 60 seconds to score as many points as you can.
 5. Keep an eye on the timer and the hit box to maximize your score.
 
+## Technology Used
+
+- HTML
+- CSS
+- JavaScript
+
 ## Features
 
 - Fast-paced gameplay that keeps you engaged.
@@ -25,4 +31,12 @@ Bubble Blast is an exciting and fast-paced bubble-popping game that challenges y
 
 ![landing](https://github.com/Maddy150912/MY-BubbleGame/assets/84185600/ece76d0c-d2f8-4c7b-afe2-143e7f485500)
 ![game](https://github.com/Maddy150912/MY-BubbleGame/assets/84185600/5c160802-2315-451e-ac71-ea7b3cdd00ec)
+
+## Contacts
+
+This project was created by Mandar Yangal.
+For any inquiries or feedback, feel free to reach out to me:
+-  Email: mr.maddy150912@gmail.com
+
+
 
